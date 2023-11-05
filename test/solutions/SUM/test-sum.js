@@ -10,12 +10,10 @@ describe('SUM challenge: adding two numbers', function() {
 	});
 
 
-	// //cover as much base as possible. without having to go through every cumbersome permutation
-	// it('should throw error if param[0] is not a positive integer', function(){
-	// })
 
-	it('should throw error if param[1] is not an integer between 0-100', () =>{
-		assert(1+1==2)
+
+	test('invalid x or y input', () =>{
+		assert.throws(sum(undefined,1),{message: 'invalid x or y input'})
 	})
 
 
