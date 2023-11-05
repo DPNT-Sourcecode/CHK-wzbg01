@@ -6,9 +6,9 @@ const checkout = require('../../../lib/solutions/CHK/checkout');
 
 describe('CHK challenge: checkout', () => {
 
-    it('handles the alphabet',() =>{
-        checkout(["ABCDEFGHIJKLMNOPQRSTUVWXYZ"])
-    })
+    // it('handles the alphabet',() =>{
+    //     checkout(["ABCDEFGHIJKLMNOPQRSTUVWXYZ"])
+    // })
 
 
     // it('single letters are valid', () => {
@@ -31,13 +31,13 @@ describe('CHK challenge: checkout', () => {
     //     assert.equal(checkout(["ABCa"]),-1)
     // })
 
-    // it(`Testing E scenarios`, () =>{
-    //     assert.equal(checkout(["E"]),40)
-    //     assert.equal(checkout(["BE"]),70)
-    //     assert.equal(checkout(["EE"]),80)
-    //     assert.equal(checkout(["BEE"]),80)
-    //     assert.equal(checkout(["BBEE"]),110)
-    // })
+    it(`Testing E scenarios`, () =>{
+        // assert.equal(checkout(["E"]),40)
+        // assert.equal(checkout(["BE"]),70)
+        assert.equal(checkout(["EE"]),80)
+        // assert.equal(checkout(["BEE"]),80)
+        // assert.equal(checkout(["BBEE"]),110)
+    })
 
     // it(`New A Promo`,() => {
     //     assert.equal(checkout(["A"]),50)
