@@ -68,7 +68,12 @@ describe('CHK challenge: checkout', () => {
 
 
     it('item F cases',() => {
-
+        assert.equal(checkout(["F"]),10)
+        // assert.equal(checkout(["FF"]),20)
+        // assert.equal(checkout(["FFF"]),20)
+        // assert.equal(checkout(["FFFF"]),30)
+        // assert.equal(checkout(["FFFFF"]),40)
+        // assert.equal(checkout(["FFFFFF"]),40)
     })
 
 })
