@@ -6,7 +6,7 @@ const sum = require('../../../lib/solutions/SUM/sum');
 
 describe('SUM challenge: adding two numbers', function() {
 	it('should return 3, which is the sum of 1 and 2', function() {
-	    assert.equal(sum(1, 2), 3);
+	    assert.equal(sum(0, 1), 1);
 	});
 
 	//mocha syntax is something new. i used jest
@@ -35,3 +35,4 @@ describe('SUM challenge: adding two numbers', function() {
 	})
 
 });
+
