@@ -14,5 +14,9 @@ describe('CHK challenge: checkout', () => {
         checkout(testInput)
     })
 
+    it(`["a"] returns -1`, () => {
+        assert.equals(checkout(["a"]),-1)
+    })
+
 })
 
