@@ -10,8 +10,9 @@ describe('CHK challenge: checkout', () => {
 
     it('calls something',() => {
         // const testInput = `ABCDCBAABCABBAAA`
-        const testInput = `A`
+        const testInput = `AAABCD`
         checkout(testInput)
     })
 
 })
+
