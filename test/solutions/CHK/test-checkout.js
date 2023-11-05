@@ -12,21 +12,21 @@ describe('CHK challenge: checkout', () => {
         assert.equal(checkout(["A"]),50)
     })
 
-    // it('calls something',() => {
-    //     const testInput = `ABCDCBAABCABBAAA`
-    //     checkout(testInput)
-    // })
+    it('calls something',() => {
+        const testInput = `ABCDCBAABCABBAAA`
+        checkout(testInput)
+    })
 
-    // it(`["a"] returns -1`, () => {
-    //     assert.equal(checkout(["a"]),-1)
-    // })
+    it(`["a"] returns -1`, () => {
+        assert.equal(checkout(["a"]),-1)
+    })
 
-    // it(`["-"] returns -1`,() => {
-    //     assert.equal(checkout(["-"]),-1)
-    // })
+    it(`["-"] returns -1`,() => {
+        assert.equal(checkout(["-"]),-1)
+    })
 
-    // it(`["ABCa"] returns -1`,() => {
-    //     assert.equal(checkout(["ABCa"]),-1)
-    // })
+    it(`["ABCa"] returns -1`,() => {
+        assert.equal(checkout(["ABCa"]),-1)
+    })
 
 })
