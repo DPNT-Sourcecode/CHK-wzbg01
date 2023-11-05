@@ -15,6 +15,10 @@ describe('CHK challenge: checkout', () => {
         assert.equal(checkout(["D"]),15)
     })
 
+    it('basic happy path',() => {
+        assert.equal(checkout(["ABCD"]),115)
+    })
+
     it('calls something',() => {
         const testInput = `ABCDCBAABCABBAAA`
         checkout(testInput)
@@ -33,3 +37,4 @@ describe('CHK challenge: checkout', () => {
     })
 
 })
+
