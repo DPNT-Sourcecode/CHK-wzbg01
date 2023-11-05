@@ -15,7 +15,7 @@ describe('SUM challenge: adding two numbers', function() {
 	// assert.throws(iThrowError(), Error, "Error thrown");
 
 	it('invalid x or y input', () =>{
-		assert.throws(sum(undefined,1), Error, "invalid x or y input")
+		assert.throws(function() {sum(undefined,1), Error, "invalid x or y input"})
 	})
 
 
