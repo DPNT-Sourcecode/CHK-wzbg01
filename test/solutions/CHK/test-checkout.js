@@ -6,14 +6,14 @@ const checkout = require('../../../lib/solutions/CHK/checkout');
 
 describe('CHK challenge: checkout', () => {
 
-    // it('single letters are valid', () => {
-    //     assert.equal(checkout(["A"]),50)
-    //     assert.equal(checkout(["B"]),30)
-    //     assert.equal(checkout(["C"]),20)
-    //     assert.equal(checkout(["D"]),15)
-    //     assert.equal(checkout(["E"]),40)
-    //     assert.equal(checkout(["F"]),10)
-    // })
+    it('single letters are valid', () => {
+        // assert.equal(checkout(["A"]),50)
+        // assert.equal(checkout(["B"]),30)
+        // assert.equal(checkout(["C"]),20)
+        // assert.equal(checkout(["D"]),15)
+        assert.equal(checkout(["E"]),40)
+        // assert.equal(checkout(["F"]),10)
+    })
 
     // it('basic happy path',() => {
     //     assert.equal(checkout(["ABCD"]),115)
@@ -67,13 +67,13 @@ describe('CHK challenge: checkout', () => {
     // })
 
 
-    it('item F cases',() => {
-        assert.equal(checkout(["F"]),10)
-        assert.equal(checkout(["FF"]),20)
-        assert.equal(checkout(["FFF"]),20)
-        assert.equal(checkout(["FFFF"]),30)
-        assert.equal(checkout(["FFFFF"]),40)
-        assert.equal(checkout(["FFFFFF"]),40)
-    })
+    // it('item F cases',() => {
+    //     assert.equal(checkout(["F"]),10)
+    //     assert.equal(checkout(["FF"]),20)
+    //     assert.equal(checkout(["FFF"]),20)
+    //     assert.equal(checkout(["FFFF"]),30)
+    //     assert.equal(checkout(["FFFFF"]),40)
+    //     assert.equal(checkout(["FFFFFF"]),40)
+    // })
 
 })
