@@ -15,15 +15,15 @@ describe('CHK challenge: checkout', () => {
     })
 
     it(`["a"] returns -1`, () => {
-        assert.equals(checkout(["a"]),-1)
+        assert.equal(checkout(["a"]),-1)
     })
 
     it(`["-"] returns -1`,() => {
-        assert.equals(checkout(["-"]),-1)
+        assert.equal(checkout(["-"]),-1)
     })
 
     it(`["ABCa"] returns -1`,() => {
-        assert.equals(checkout(["ABCa"]),-1)
+        assert.equal(checkout(["ABCa"]),-1)
     })
 
 })
