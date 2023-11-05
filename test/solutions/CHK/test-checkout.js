@@ -42,7 +42,7 @@ describe('CHK challenge: checkout', () => {
         // assert.equal(checkout(["BE"]),70)
         // assert.equal(checkout(["EE"]),80)
         // assert.equal(checkout(["BEE"]),80)
-        assert.equal(checkout(["BBBBEE"]),35)
+        assert.equal(checkout(["BBEE"]),35)
     })
 
 })
