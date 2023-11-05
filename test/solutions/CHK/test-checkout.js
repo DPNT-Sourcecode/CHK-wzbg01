@@ -15,4 +15,3 @@ describe('CHK challenge: checkout', () => {
     })
 
 })
-
