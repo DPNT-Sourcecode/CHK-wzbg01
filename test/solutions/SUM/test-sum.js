@@ -9,14 +9,29 @@ describe('SUM challenge: adding two numbers', function() {
 	    assert.equal(sum(1, 2), 3);
 	});
 
-
-
-	//learning mocha. i use jest
-	// assert.throws(iThrowError(), Error, "Error thrown");
-
+	//mocha syntax is something new. i used jest
 	it('invalid x or y input', () =>{
 		assert.throws(function() {sum(undefined,1), Error, "invalid x or y input"})
 	})
+
+	it('x is not positive', () => {
+		let negativeX = -1
+		let expectedErrorMessage = `x is not positive: ${negativeX}`
+		assert.throws(function() {sum(negativeX,1), Error, `invalid x or y input: ${negativeX}`})
+	})
+
+	it('y is not positive', () => {
+
+	})
+
+	it('x is not an integer', () => {
+
+	})
+
+	it('y is an integer not between 0-100', () => {
+
+	})
+
 
 
 });
