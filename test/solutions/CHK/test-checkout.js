@@ -9,10 +9,8 @@ describe('CHK challenge: checkout', () => {
     //invalid: ABCa,-,a,AxA
 
     it('calls something',() => {
-        const testInput = ``
+        const testInput = `ABCDCBAABCABBAAA`
         checkout(testInput)
     })
 
 })
-
-
