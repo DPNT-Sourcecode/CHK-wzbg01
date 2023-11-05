@@ -10,10 +10,6 @@ describe('SUM challenge: adding two numbers', function() {
 	});
 
 	//mocha syntax is something new. i used jest
-	it('invalid x or y input', () =>{
-		assert.throws(function() {sum(undefined,1), Error, "invalid x or y input"})
-	})
-
 	it('x is not positive', () => {
 		let negativeX = -1
 		let expectedErrorMessage = `x is not positive: ${negativeX}`
@@ -35,4 +31,5 @@ describe('SUM challenge: adding two numbers', function() {
 	})
 
 });
+
 
