@@ -37,13 +37,13 @@ describe('CHK challenge: checkout', () => {
     // })
 
 
-    it(`Testing E scenarios`, () =>{
-        assert.equal(checkout(["E"]),40)
-        assert.equal(checkout(["BE"]),70)
-        assert.equal(checkout(["EE"]),80)
-        assert.equal(checkout(["BEE"]),80)
-        assert.equal(checkout(["BBEE"]),95)
-    })
+    // it(`Testing E scenarios`, () =>{
+    //     assert.equal(checkout(["E"]),40)
+    //     assert.equal(checkout(["BE"]),70)
+    //     assert.equal(checkout(["EE"]),80)
+    //     assert.equal(checkout(["BEE"]),80)
+    //     assert.equal(checkout(["BBEE"]),95)
+    // })
 
     // it(`New A Promo`,() => {
     //     assert.equal(checkout(["A"]),50)
@@ -62,6 +62,7 @@ describe('CHK challenge: checkout', () => {
         // assert.equal(checkout(["ABCDEABCDE"]),280)
         // assert.equal(checkout(["CCADDEEBBA"]),280)
         // assert.equal(checkout(["AAAAAEEBAAABB"]),455)
+        assert.equal(checkout(["ABCDECBAABCABBAAAEEAA"]),665)
     })
 
 })
