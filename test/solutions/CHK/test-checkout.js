@@ -7,10 +7,11 @@ const checkout = require('../../../lib/solutions/CHK/checkout');
 describe('CHK challenge: checkout', () => {
 
     it('calls something',() => {
-        const testInput = `11A3B`
+        const testInput = `11A3B3D`
 
 
         checkout(testInput)
     })
 
 })
+
