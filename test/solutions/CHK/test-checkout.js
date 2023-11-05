@@ -59,10 +59,15 @@ describe('CHK challenge: checkout', () => {
     // })
 
     it('more complicated orders',() => {
-        assert.equal(checkout(["ABCDEABCDE"]),280)
+        // assert.equal(checkout(["ABCDEABCDE"]),280)
         // assert.equal(checkout(["CCADDEEBBA"]),280)
-        // assert.equal(checkout(["AAAAAEEBAAABB"]),455)
+        assert.equal(checkout(["AAAAAEEBAAABB"]),455)
     })
 
 })
+
+
+
+
+
 
