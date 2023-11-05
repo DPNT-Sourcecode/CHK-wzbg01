@@ -45,4 +45,13 @@ describe('CHK challenge: checkout', () => {
         assert.equal(checkout(["BBEE"]),95)
     })
 
+    it(`New A Promo`,() => {
+        assert.equal(checkout(["AAAAA"]),200)          //5
+        assert.equal(checkout(["AAAAAA"]),250)         //6
+        assert.equal(checkout(["AAAAAAA"]),300)        //7
+        assert.equal(checkout(["AAAAAAAA"]),350)       //8 = 5+3
+        assert.equal(checkout(["AAAAAAAAA"]),380)      //9 = 5+3+1
+        assert.equal(checkout(["AAAAAAAAAA"]),400)      //10 = 2*5
+    })
+
 })
