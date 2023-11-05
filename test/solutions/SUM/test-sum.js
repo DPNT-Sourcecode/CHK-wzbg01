@@ -21,17 +21,17 @@ describe('SUM challenge: adding two numbers', function() {
 	})
 
 	it('y is not positive', () => {
-
+		let negativeY = -1
+		let expectedErrorMessage = `y is not positive: ${negativeY}`
+		assert.throws(function() {sum(1,negativeY), Error, `invalid x or y input: ${negativeY}`})
 	})
 
 	it('x is not an integer', () => {
-
+		assert.throws(function() {sum(1.1,2), Error, `x is not an integer between 0-100: 1.1`})
 	})
 
 	it('y is an integer not between 0-100', () => {
-
+		assert.throws(function() {sum(1,101), Error, `y is not an integer between 0-100: 101`})
 	})
-
-
 
 });
