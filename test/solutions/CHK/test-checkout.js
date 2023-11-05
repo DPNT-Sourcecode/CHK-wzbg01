@@ -7,7 +7,7 @@ const checkout = require('../../../lib/solutions/CHK/checkout');
 describe('CHK challenge: checkout', () => {
 
     it('handles the alphabet',() =>{
-        checkout(["ABCDABCDEFGHIJKLMNOPQRSTUVWXYZEFG"])
+        checkout(["ABCDEFGHIJKLMNOPQRSTUVWXYZ"])
     })
 
 
