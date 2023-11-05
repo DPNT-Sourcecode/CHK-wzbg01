@@ -11,9 +11,11 @@ describe('SUM challenge: adding two numbers', function() {
 
 
 
+	//learning mocha. i use jest
+	// assert.throws(iThrowError(), Error, "Error thrown");
 
-	test('invalid x or y input', () =>{
-		assert.throws(sum(undefined,1),{message: 'invalid x or y input'})
+	it('invalid x or y input', () =>{
+		assert.throws(sum(undefined,1), Error, "invalid x or y input")
 	})
 
 
