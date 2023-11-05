@@ -72,5 +72,3 @@ describe('CHK challenge: checkout', () => {
     })
 
 })
-
-
