@@ -10,6 +10,9 @@ describe('CHK challenge: checkout', () => {
 
     it('single letters are valid', () => {
         assert.equal(checkout(["A"]),50)
+        assert.equal(checkout(["B"]),30)
+        assert.equal(checkout(["C"]),20)
+        assert.equal(checkout(["D"]),15)
     })
 
     it('calls something',() => {
