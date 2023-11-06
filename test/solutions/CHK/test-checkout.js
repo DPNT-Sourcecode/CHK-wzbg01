@@ -84,7 +84,13 @@ describe('CHK challenge: checkout', () => {
     // })
 
     it('STXYZ',() => {
-        checkout(["SSSSSS"])
+        // assert.equal(checkout(["S"]),20)
+        // assert.equal(checkout(["T"]),20)
+        // assert.equal(checkout(["X"]),17)
+        // assert.equal(checkout(["Y"]),20)
+        // assert.equal(checkout(["Z"]),21)
+        // assert.equal(checkout(["ZZ"]),42)
+        assert.equal(checkout(["ZZZ"]),45)
     })
 
 })
