@@ -91,6 +91,9 @@ describe('CHK challenge: checkout', () => {
         // assert.equal(checkout(["Z"]),21)
         // assert.equal(checkout(["ZZ"]),42)
         assert.equal(checkout(["ZZZ"]),45)
+        // assert.equal(checkout(["SSSS"]),65)
+        // assert.equal(checkout(["SSSSS"]),85)
+        // assert.equal(checkout(["SSSSSS"]),90)
     })
 
 })
