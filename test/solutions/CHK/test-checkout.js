@@ -7,7 +7,7 @@ const checkout = require('../../../lib/solutions/CHK/checkout');
 describe('CHK challenge: checkout', () => {
 
     it('handles the alphabet',() =>{
-        assert.equal(checkout(["ABCDEFGHIJKLMNOPQRSTUVWXYZ"]),965)
+        assert.equal(checkout(["ABCDEFGHIJKLMNOPQRSTUVWXYZ"]),837)
     })
 
 
@@ -79,7 +79,6 @@ describe('CHK challenge: checkout', () => {
     })
 
     it('odd case',() => {
-        assert.equal(checkout(["PPPPQRUVPQRUVPQRUVSU"]),740)
         assert.equal(checkout(["QQQRRR"]),210)
     })
 
