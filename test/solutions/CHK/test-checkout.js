@@ -84,7 +84,7 @@ describe('CHK challenge: checkout', () => {
     // })
 
     it('STXYZ',() => {
-        checkout(["SSTTXXYYZZZ"])
+        checkout(["STYZ"])
     })
 
 })
